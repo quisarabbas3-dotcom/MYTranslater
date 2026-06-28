@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Language Translator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <h1>🌍 Language Translator</h1>
+
+
+    <textarea 
+        id="inputText"
+        placeholder="Enter text..."
+    ></textarea>
+
+
+    <br><br>
+
+
+    <select id="fromLang">
+
+        <option value="en">English</option>
+        <option value="ur">Urdu</option>
+        <option value="fr">French</option>
+        <option value="es">Spanish</option>
+        <option value="de">German</option>
+        <option value="hi">Hindi</option>
+        <option value="ar">Arabic</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+
+    </select>
+
+
+
+    <select id="toLang">
+
+        <option value="es">Spanish</option>
+        <option value="hi">Hindi</option>
+        <option value="de">German</option>
+        <option value="ur">Urdu</option>
+        <option value="fr">French</option>
+        <option value="en">English</option>
+        <option value="ar">Arabic</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+
+    </select>
+
+
+    <br><br>
+
+
+    <button id="translateBtn">
+        Translate
+    </button>
+
+
+    <br><br>
+
+
+    <textarea
+        id="outputText"
+        readonly
+        placeholder="Translation will appear here..."
+    ></textarea>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
